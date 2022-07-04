@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Book List App',
       // home: ListScreen(),
-      home: BookDetailScreen(),
+      home: ListScreen(),
     );
   }
 }

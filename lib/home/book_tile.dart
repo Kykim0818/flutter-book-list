@@ -19,7 +19,13 @@ class BookTile extends StatelessWidget {
     return ListTile(
         title: Text(title),
         leading: Image.network(imageSrc),
-        onTap: () {} // 이벤트 발생 onClick 과 동일
-        );
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => DetailScreen(),
+            ),
+          );
+        }, // 이벤트 발생 onClick 과 동일
+    );
   }
 }
