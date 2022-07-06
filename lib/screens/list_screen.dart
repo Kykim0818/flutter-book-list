@@ -10,7 +10,10 @@ class ListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('도서 목록 앱')),
+      appBar: AppBar(
+        title: const Text('도서 목록 앱'),
+        centerTitle: true,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: ListView.builder(

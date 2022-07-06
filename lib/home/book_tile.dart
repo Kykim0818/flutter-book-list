@@ -11,7 +11,9 @@ class BookTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(book.title),
-      leading: Image.network(book.imageSrc),
+      leading: Image.network(
+        book.imageSrc,
+      ),
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(

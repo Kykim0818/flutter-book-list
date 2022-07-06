@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_book_list/screens/book_detail_screen.dart';
 import 'package:flutter_book_list/screens/list_screen.dart';
 
 void main() => runApp(const MyApp());
